@@ -22,11 +22,9 @@ Mas descendo um pouco mais o nível temos as Tags:
 
 Uma tag HTML é dividida em três partes: o nome da tag, seu conteúdo e seus atributos.
 Como exemplo a tag `<p atributo="valor do atributo"> Aqui vai o conteúdo do Paragrafo </p>`
-outro exemplo é a tag `<img />` que só possui atributos e não necessita de conteúdo pois acessa uma midia e pode ter o fechamento reduzido '<tag />'.
+outro exemplo é a tag `<img />` que só possui atributos e não necessita de conteúdo pois acessa uma midia e pode ter o fechamento reduzido '<img />'.
 
 Aqui fica o link para TODOS os Elementos HTML disponíveis - https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
-
-Na página é possível ver que os elementos se dividem em grupos semanticos como por exemplo Metadados do documento, Elementos de formulário e de multimedia.
 
 ## E como tudo isso se encaixa? O que/como o Navegador imterpreta?
 
@@ -36,7 +34,7 @@ Primeiro vamos abrir nossa página básica.
 No Caso, usando o Google Chrome e apertando com o Botão direito + inspecionar elementos é possível ver o código por baixo dos panos. Em algumas páginas, de frameworks de frontend mais modernos pode ficar bem confusa a navegação na hierarquia de elementos. Mas aqui são somente os elementos básicos que já inserimos.
 No desenrolar do treinamento vamos falando mais sobre a DevTools dos navegadores
 
-### Encaixando HTML + Tags
+## Encaixando HTML + Tags
 
 Vou criar nossa primeira página HTML.
 
@@ -65,7 +63,7 @@ Vou criar nossa primeira página HTML.
   - Vamos para as tags de Interface
 
     - Dentro de Body adicionamos as tags de interface. Para isso é muito importante planejar a hierarquia e subdivisões que serão necessárias para que o navegador interprete corretamente.
-      Lembrando que sempre que criamos interfaces para usuários é necessario pensar tbm em Acessibilidade. Não vou entrar a fundo na questão, mas desde o inicio deve ser considerado a acessibilidade
+      Lembrando que sempre que criamos interfaces para usuários é necessario pensar tbm em **Acessibilidade**. Não vou entrar a fundo na questão, mas desde o inicio deve ser considerado a acessibilidade
       e o minimo para isso é criação hierarquica do HTML e suas tags.
 
     - As tags de interface tbm se dividem em grupos e subgrupos.
@@ -73,6 +71,7 @@ Vou criar nossa primeira página HTML.
       - Tags estruturais
 
         - <div> - divisão de conteúdo
+        - <section> - divisão de conteúdo
         - <span> - elemento de texto
         - <h1>, <h2>, <h3>, <h4>, <h5>, <h6> - elementos de titulo
         - <p> - parágrafo
@@ -113,7 +112,9 @@ Vou criar nossa primeira página HTML.
   - Vimos que as tags se dividem em grupos e subgrupos
 
     - Metatags para informar o navegador sobre o documento e configurações
-    - Tags para interface e interação com o usuário - Tags estruturais
+    - Tags para interface e interação com o usuário -
+
+      - Tags estruturais
 
             - <div> - divisão de conteúdo
             - <span> - elemento de texto
@@ -122,20 +123,19 @@ Vou criar nossa primeira página HTML.
             - <ul> + <li> - listagem
             - <table> - tabelas de dados
 
+        - Tags de formulários
 
-          - Tags de formulários
+          - <form> - formulário
+          - <input> - campo de entrada
+          - <button> - botão
+          - <select> - caixa de seleção
+          - <textarea> - área de texto
 
-            - <form> - formulário
-            - <input> - campo de entrada
-            - <button> - botão
-            - <select> - caixa de seleção
-            - <textarea> - área de texto
+        - Tags de multimedia
 
-          - Tags de multimedia
-
-            - <img /> - Imagem
-            - <audio> - áudio
-            - <video> - video
+          - <img /> - Imagem
+          - <audio> - áudio
+          - <video> - video
 
   - Olhamos na prática a construção de uma página HTML
   - e agora vamos para a estilização da página com CSS.

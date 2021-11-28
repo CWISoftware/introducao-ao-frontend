@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <title>Insta.mus</title>
+  </head>
+  <body>
+    <header>
+      <h1>Insta.mus</h1>
+    </header>
+    <div>
+      <!-- Formulário e instruções -->
+      <div>
+        <div id="form-albuns">
+          <!-- Formulário -->
+          <div class="title-form">
+            <h2>Adicionar novo Album</h2>
+          </div>
+          <form
+            action="https://postb.in/1637968976032-8751418120227"
+            method="post"
+          >
+            <input
+              class="input-form"
+              type="text"
+              name="artista"
+              placeholder="digite o nome do Artista"
+            />
+            <input
+              class="input-form"
+              type="text"
+              name="album"
+              placeholder="digite o titulo do Album"
+            />
+            <input
+              class="input-form"
+              type="text"
+              name="capa"
+              placeholder="digite a url da Capa do Album"
+            />
+            <div id="enviar-form">
+              <button id="bt-enviar">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <div>
+          <!-- Instruções de uso -->
+          <ul id="instrucoes-de-uso">
+            <li>1) adicionar Nome do Artista</li>
+            <li>2) adicionar Titulo do Album</li>
+            <li>2) adicionar a Url da Capa do Album</li>
+            <li>3) enviar o/</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <!-- Lista de Albuns/Artistas -->
+      <ul id="lista-de-albuns">
+        <li>
+          <div>
+            <!-- Um cartão com imagem + Titulo -->
+            <img class="imagem-da-capa" src="./assets/img/led.png" />
+            <span class="nome-do-artista">Led Zeppelin</span>
+            <span class="titulo-do-album">III</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <!-- Um cartão com imagem + Titulo -->
+            <img class="imagem-da-capa" src="./assets/img/pink.png" />
+            <span class="nome-do-artista">Pink Floyd</span>
+            <span class="titulo-do-album">Animals</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <!-- Um cartão com imagem + Titulo -->
+            <img class="imagem-da-capa" src="./assets/img/secos.png" />
+            <span class="nome-do-artista">Secos e Molhados</span>
+            <span class="titulo-do-album">Flores Astrais</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
