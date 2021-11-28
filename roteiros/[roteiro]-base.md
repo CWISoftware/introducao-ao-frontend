@@ -1,35 +1,37 @@
-### Introdução ao HTML e CSS - 1h
+### Introdução ao Frontend - 1h
 
-## Aula 1 - Anatomia das Tags HTML (15min no total) 
+## Aula 1 - Anatomia do HTML (+ou-15min no total)
+
     - o que é HTML?
     - o que é um Elemento/Tags HTML?
     - Tags básicas (somente abordar os atributos essenciais de cada tag)
-      - Estruturais (html, head, body, title, footer, div)
+      - Estruturais (html, head, body, title, header, div)
       - Semânticas (a, Hs, p, li, ul, img)
-      - Tabelas (table, tr, td, th, thead, tbody, tfoot)
-      - Formulários (form, input, label, select, option, textarea, button)
-      - ??
+      - Formulários (form, input, button)
 
-## Aula 2 - Anatomia das páginas HTML (15min no total)
+## Aula 2 - Construindo a primeira página HTML (+ou-15min no total)
+
     Primeira página:
-        - Réplica(básica) do instagram (pode mudar até a gravação)
+        - Réplica(básica) do instagram (insta.mus.br)
           - Cabeçalho da página (header)
           - Corpo da página (body)
+            - Formulário para adicionar novo Album
+            - Instruções de uso
             - Lista de Post
               - Post
                 - Imagem
-                - Descrição
-                - Data
-          - Rodapé da página (footer)?
+                - Nome do Artista
+                - Titulo do Album
 
-## Aula 3 - Introdução ao CSS (30min no total)
+## Aula 3 - Introdução ao CSS - Estilizando o HTML (+ou-30min no total)
+
     - o que é CSS?
     - Regras do CSS
     - Seletores (tags, id, class, pseudo-class)
     - Propriedades CSS (e seus valores)
     - Pensando em blocos (margin, padding, border, cores, textos e imagens)
     - Aplicando estilo a páginas HTML
-    - Tópicos avançados (flexbox, responsividade, grid)
+    - Tópicos avançados (flexbox)
 
 outros Cursos (gratuitos):
 https://www.codecademy.com/learn/learn-html

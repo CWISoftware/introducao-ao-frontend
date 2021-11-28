@@ -1,8 +1,9 @@
 # Aula 1 - Anatomia do HTML
 
-## Introdução
+## Introdução - O que é HTML?
 
-Uma pagina HTML é composta de vários Tags/Elementos/Components. De forma semantica e ordenada, é possível dispor conteúdos e criar interações com o usuário.
+É uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML são interpretados por navegadores
+Uma página HTML é composta de vários Tags/Elementos/Components. De forma semântica e ordenada, é possível dispor conteúdos e criar interações com o usuário.
 O básico estrutural de uma página HTML tem esta cara:
 `<!DOCTYPE html>
 
