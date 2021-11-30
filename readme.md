@@ -1,6 +1,4 @@
-### Introdução ao Frontend
-
-## Introdução ao Frontend
+### Introdução ao Frontend - HTML + CSS
 
 - [x] - Roteiro dos Vídeos
 
