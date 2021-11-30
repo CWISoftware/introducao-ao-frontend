@@ -4,73 +4,87 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Insta.mus</title>
+    <!-- styles -->
+    <link href="./assets/css/geral.css" rel="stylesheet" />
+    <link href="./assets/css/flexbox.css" rel="stylesheet" />
+    <!-- styles-->
+
+    <title>insta.mus</title>
   </head>
   <body>
     <header>
       <h1>Insta.mus</h1>
     </header>
-    <div>
-      <!-- Formulário e instruções -->
-      <div>
-        <div>
-          <!-- Formulário -->
+    <div id="container">
+      <div id="formulario-e-instrucoes">
+        <div id="formulario-add-album">
           <h2>Adicionar novo Album</h2>
           <form>
             <input
               type="text"
-              name="artista"
-              placeholder="digite o nome do Artista"
+              name="nome-do-artista"
+              id="nome-do-artista"
+              placeholder="digite o nome do artista"
             />
             <input
               type="text"
-              name="album"
+              name="titulo do album"
+              id="titulo do album"
               placeholder="digite o titulo do Album"
             />
             <input
               type="text"
-              name="capa"
-              placeholder="digite a url da Capa do Album"
+              name="url-da-capa"
+              id="url-da-capa"
+              placeholder="digite a url da capa"
             />
-            <button>Enviar</button>
+            <button type="submit">Enviar</button>
           </form>
         </div>
-        <div>
-          <!-- Instruções de uso -->
+        <div id="instrucoes">
           <ul>
-            <li>1) adicionar Nome do Artista</li>
-            <li>2) adicionar Titulo do Album</li>
-            <li>2) adicionar a Url da Capa do Album</li>
-            <li>3) enviar o/</li>
+            <li>1. adicionar Nome do Artista</li>
+            <li>2. adicionar Titulo do Album</li>
+            <li>3. adicionar a Url da Capa</li>
+            <li>4. enviar o/</li>
           </ul>
         </div>
       </div>
-    </div>
-    <div>
-      <!-- Lista de Albuns/Artistas -->
-      <ul>
-        <li>
-          <div>
-            <!-- Um cartão com imagem + Titulo -->
-            <img src="./assets/img/led.png" />
-            <span>Led Zeppelin</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <!-- Um cartão com imagem + Titulo -->
-            <img src="./assets/img/pink.png" />
-            <span>Pink Floyd</span>
-          </div>
-        </li>
-        <li>
-          <div>
-            <!-- Um cartão com imagem + Titulo -->
-            <img src="./assets/img/secos.png" />
-            <span>Secos e Molhados</span>
-          </div>
-        </li>
-      </ul>
+      <hr />
+      <div id="listagem-albuns">
+        <ul>
+          <li>
+            <img src="./assets/images/secos.png" class="capa-do-album" />
+            <span class="nome-artista">secos e molhados</span>
+            <span class="titulo-album">flores astrais</span>
+          </li>
+          <li>
+            <img src="./assets/images/pink.png" class="capa-do-album" />
+            <span class="nome-artista">pink floyd</span>
+            <span class="titulo-album">animals</span>
+          </li>
+          <li>
+            <img src="./assets/images/led.png" class="capa-do-album" />
+            <span class="nome-artista">led zeppelin</span>
+            <span class="titulo-album">III</span>
+          </li>
+          <li>
+            <img src="./assets/images/secos.png" class="capa-do-album" />
+            <span class="nome-artista">secos e molhados</span>
+            <span class="titulo-album">flores astrais</span>
+          </li>
+          <li>
+            <img src="./assets/images/pink.png" class="capa-do-album" />
+            <span class="nome-artista">pink floyd</span>
+            <span class="titulo-album">animals</span>
+          </li>
+          <li>
+            <img src="./assets/images/led.png" class="capa-do-album" />
+            <span class="nome-artista">led zeppelin</span>
+            <span class="titulo-album">III</span>
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>

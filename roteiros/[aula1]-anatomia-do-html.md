@@ -12,11 +12,11 @@ O básico estrutural de uma página HTML tem esta cara:
         <title>Anatomia do HTML</title>
     </head>
     <body>
-        <p> Aqui podemos adicionar o conteúdo de texto do Parágrafo (sim, <p> = paragraph)</p> <!-- Comentários são feitos dessa forma no HTML -->
+        <p> Aqui podemos adicionar o conteúdo de texto do Parágrafo (sim, <p> = paragrafo)</p> <!-- Comentários são feitos dessa forma no HTML -->
     </body>
 </html>
 `
-Envoltou pela Tag <body></body> vai ficar todos os Elementos HTML da nossa página.
+Envoltou pela Tag <body></body> vai ficar todos os Elementos HTML da página.
 Mas descendo um pouco mais o nível temos as Tags:
 
 ## Sobre as Tags/Elementos
@@ -77,7 +77,6 @@ Vou criar nossa primeira página HTML.
         - <h1>, <h2>, <h3>, <h4>, <h5>, <h6> - elementos de titulo
         - <p> - parágrafo
         - <ul> + <li> - listagem
-        - <table> - tabelas de dados
 
       - Tags de formulários
 

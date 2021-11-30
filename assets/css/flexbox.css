@@ -1,17 +1,19 @@
-#form-albuns {
-  flex: 1;
+#container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
-#enviar-form {
+#formulario-e-instrucoes {
   display: flex;
-  justify-content: flex-end;
 }
 
-.title-item {
+#formulario-add-album form {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#listagem-albuns ul {
+  display: flex;
+  flex-wrap: wrap;
 }

@@ -1,4 +1,4 @@
-Olá, eu Sou o Cleber e este é o curso de introdução a HTML e CSS.
+Olá, eu Sou o Cleber e este é o curso de introdução a Frontend.
 
 Nossa proposta é trazer uma visão sobre a anatomia das páginas HTML, um pouco estrutura de componentes, o funcionamento das midia e diferentes elementos de interface.
 
@@ -8,4 +8,4 @@ Caso fiquem com alguma dúvida podem abrir um issue no Github para iniciarmos di
 
 No Readme do projeto adicionei as Referencias que utilizei para montar este curso. Também adicionei algumas recomendações para quem quiser avançar os conhecimentos sobre Frontend.
 
-Bom, vamos para o Código?! 
+Bom, vamos para o Código?!

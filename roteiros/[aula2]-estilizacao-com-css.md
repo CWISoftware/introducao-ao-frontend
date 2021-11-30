@@ -33,4 +33,4 @@ Com o DevTools do navegador vamos inspecionar os elementos que criamos para ver 
 
   Agora sim, vamos para o tópico de FlexBox
 
-- Tópicos avançados (flexbox, responsividade, grid) - https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox
+- Tópicos avançados (flexbox) - https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox

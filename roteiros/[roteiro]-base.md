@@ -6,13 +6,13 @@
     - o que é um Elemento/Tags HTML?
     - Tags básicas (somente abordar os atributos essenciais de cada tag)
       - Estruturais (html, head, body, title, header, div)
-      - Semânticas (a, Hs, p, li, ul, img)
-      - Formulários (form, input, button)
+      - Semânticas (a, Hs, p, li, ul, ol, img)
+      - Formulários (form, input, select, button)
 
 ## Aula 2 - Construindo a primeira página HTML (+ou-15min no total)
 
     Primeira página:
-        - Réplica(básica) do instagram (insta.mus.br)
+        - Réplica(básica) do instagram (insta.mus.br) - layout em: ./assets/insta.mus-layout.fig
           - Cabeçalho da página (header)
           - Corpo da página (body)
             - Formulário para adicionar novo Album
@@ -27,13 +27,12 @@
 
     - o que é CSS?
     - Regras do CSS
-    - Seletores (tags, id, class, pseudo-class)
+    - Seletores (tags, id, class)
     - Propriedades CSS (e seus valores)
-    - Pensando em blocos (margin, padding, border, cores, textos e imagens)
     - Aplicando estilo a páginas HTML
     - Tópicos avançados (flexbox)
 
-outros Cursos (gratuitos):
+outros Cursos:
 https://www.codecademy.com/learn/learn-html
 https://www.codecademy.com/learn/learn-css​
 https://www.udemy.com/course/introducao-a-linguagem-html/

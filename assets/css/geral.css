@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400&display=swap');
+
+html,
+body,
+h1 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+header {
+  background-color: #565656;
+  height: 60px;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: 0.15em;
+  color: #dbdbdb;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+#formulario-add-album {
+  width: 490px;
+}
+
+#formulario-add-album h2 {
+  letter-spacing: 0.1em;
+  color: #383838;
+}
+
+#formulario-add-album input {
+  width: 490px;
+  height: 25px;
+  border: 1px solid #d9d9d9;
+  margin-bottom: 12px;
+}
+
+#formulario-add-album button {
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  height: 25px;
+  width: 130px;
+  color: #349c03;
+}
+
+#instrucoes ul {
+  margin-top: 30px;
+  list-style: none;
+}
+
+#instrucoes ul li {
+  color: #383838;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+
+#listagem-albuns {
+  width: 1030px;
+}
+#listagem-albuns ul {
+  list-style: none;
+}
+
+#listagem-albuns ul li {
+  width: 270px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+#listagem-albuns ul li span {
+  display: block;
+  width: 270px;
+  letter-spacing: 0.1em;
+  margin-left: 15px;
+}
+.capa-do-album {
+  margin-bottom: 5px;
+}
+.nome-artista {
+  font-size: 10px;
+}
+.titulo-album {
+  font-size: 20px;
+}
